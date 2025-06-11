@@ -1,0 +1,59 @@
+html {
+  font-size: 62.5%;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(93, 0, 255);
+}
+header {
+  text-align: center;
+  padding: 2rem 0;
+}
+h1 {
+  font-size: 3rem;
+  font-family: "Edu NSW ACT Hand Pre", cursive;
+  color: white;
+}
+main {
+  width: 50%;
+  margin: 0 58rem;
+}
+form {
+  display: inline-block;
+}
+form input {
+  background-color: rgb(127, 165, 255);
+  width: 500px;
+  height: 3rem;
+}
+form button {
+  background-color: rgb(226, 195, 43);
+  color: rgb(149, 13, 13);
+}
+ul {
+  margin-top: 2rem;
+}
+li {
+  background-color: rgb(127, 165, 255);
+  width: 500px;
+  text-align: left;
+  margin: 1rem 0;
+  color: rgb(25, 0, 255);
+  font-size: 1.6rem;
+  font-family: "Edu NSW ACT Hand Pre", cursive;
+  padding: 1.5rem 0;
+  padding-left: 1rem;
+}
+
+li button {
+  margin-left: 1rem;
+  background-color: rgb(127, 165, 255);
+  border: 0;
+  float: right;
+  color: rgb(226, 195, 43);
+}
+li button:hover {
+  color: red;
+}
